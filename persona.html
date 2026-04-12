@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persona - The Flash Game</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="shortcut icon" href="Imgs/iluminacao.png" type="">
+</head>
+<body>
+  <header class="topo">
+    <div class="nome">THE FLASH</div>
+    <nav>
+      <a href="index.html#inicio">Início</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#jogar">Jogar</a>
+      <a href="persona.html">Persona</a>
+      <a href="index.html#personagens">Personagens</a>
+      <a href="index.html#Cenario">Cenários</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+
+    <button id="temaBtnPersona">Modo Escuro</button>
+  </header>
+
+  <section class="bloco persona-pagina" id="persona">
+    <div class="titulo-bloco">
+      <h2>PERSONA DO JOGO</h2>
+      <p>Perfil do jogador ideal para o projeto The Flash Game.</p>
+    </div>
+
+    <div class="persona-layout">
+      <div class="card persona-card">
+        <img src="Imgs/Captura de tela 2026-04-12 200707.png" alt="Imagem da persona">
+        <h3> Gabriel Oliveira, 18 anos</h3>
+        <p>
+          Gabriel é fã de séries de super-heróis, principalmente The Flash. Ele gosta de
+histórias envolvendo velocidade, poderes e batalhas contra vilões. Costuma assistir
+séries e filmes da DC e acompanhar conteúdos sobre super-heróis na internet.
+
+        </p>
+      </div>
+
+      <div class="persona-detalhes">
+        <div class="card-noticia persona-lista">
+          <span>MOTIVAÇÕES</span>
+          <ul>
+            <li>Jogar algo baseado no universo do Flash.</li>
+            <li>Sentir a experiência da super velocidade.</li>
+            <li>Superar obstáculos como um verdadeiro velocista.</li>
+          </ul>
+        </div>
+
+        <div class="card-noticia persona-lista">
+          <span>FRUSTRAÇÕES</span>
+          <ul>
+            <li>Jogos que não lembram o universo do Flash.</li>
+            <li>Pouca variedade de desafios ou obstáculos.</li>
+            <li>Falta de sensação de velocidade.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="botao-centralizado">
+      <a href="index.html#jogar" class="botao">JOGAR AGORA</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Projeto desenvolvido por Pedro Rossato.</p>
+  </footer>
+
+  <script>
+    const botaoTemaPersona = document.getElementById("temaBtnPersona");
+
+    botaoTemaPersona.addEventListener("click", function () {
+      document.body.classList.toggle("tema-claro");
+
+      if (document.body.classList.contains("tema-claro")) {
+        botaoTemaPersona.innerText = "Modo Claro";
+      } else {
+        botaoTemaPersona.innerText = "Modo Escuro";
+      }
+    });
+  </script>
+</body>
+</html>

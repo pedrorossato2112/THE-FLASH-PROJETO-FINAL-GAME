@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Flash Game</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="shortcut icon" href="Imgs/iluminacao.png" type="">
+</head>
+
+<!-- HEADER -->
+
+<body>
+  <header class="topo">
+    <div class="nome">THE FLASH</div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="persona.html">Persona</a>
+      <a href="#personagens">Personagens</a>
+      <a href="#Cenario">Cenários</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <button id="temaBtn">Modo Escuro</button>
+
+  </header>
+
+<!--SECTION FLASH-->
+
+  <section class="Flash" id="inicio">
+    <div class="overlay"></div>
+    <div class="Flash-conteudo">
+      <p class="subtitulo">ENGENHARIA DE SOFTWARE</p>
+      <h1 class="titulo">THE FLASH GAME</h1>
+      <p class="descricao">
+        Corra como nunca, conheça os personagens e jogue diretamente pelo site.
+      </p>
+      <a href="#jogar" class="botao">JOGAR AGORA</a>
+      <p id="Bem-Vindo"></p>
+<input type="text" id="nomeInput" placeholder="Digite seu nome">
+<button id="enviarInput" onclick="mostrarNome()">Enviar Nome</button>
+    </div>
+  </section>
+
+  <!--SECTION NOTICIAS-->
+
+  <section class="bloco noticias">
+    <div class="titulo-bloco">
+      <h2>ÚLTIMAS NOVIDADES</h2>
+    </div>
+    <div class="cards-noticias">
+      <div class="card-noticia">
+        <span>Atualização</span>
+        <h3>Novo modo disponível</h3>
+        <p>Corra como se fosse o Homem mais rapido do mundo e vença seu Inimigo.</p>
+      </div>
+      <div class="card-noticia">
+        <span>Gameplay</span>
+        <h3>Nova mecanica</h3>
+        <p>Novos obstaculos foram adicionados aos cenarios.</p>
+      </div>
+      <div class="card-noticia">
+        <span>Cenário</span>
+        <h3>Novo Terreno</h3>
+        <p>Explore uma nova fase com obstaculos e estrategias diferentes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION SOBRE O GAME-->
+
+  <section class="bloco sobre" id="sobre">
+  <div class="texto">
+    <p class="subtitulo">MEU JOGO SE CHAMA THE FLASH GAME</p>
+    <h2>HISTÓRIA DO GAME</h2>
+    <p>
+      Em um mundo onde a velocidade é a maior arma, um evento misterioso altera o equilíbrio entre heróis e vilões.
+Após uma falha na Força de Aceleração, múltiplas realidades começam a se conectar, criando cenários instáveis e perigosos. Cidades, florestas e territórios desconhecidos passam a fazer parte de uma única dimensão, cheia de obstáculos e ameaças.
+Barry Allen, o Flash, percebe que não pode enfrentar tudo sozinho. Para restaurar o equilíbrio, ele precisa treinar e testar novos velocistas capazes de acompanhar sua velocidade e enfrentar os desafios criados por essa instabilidade.
+É nesse momento que novos corredores entram em ação.
+    </p>
+  </div>
+
+  <div class="video-gameplay">
+    <div class="video-container">
+      <video controls>
+        <source src="Imgs/Captures/Flash - Google Chrome 2026-03-30 14-50-25.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!--SECTION JOGO-->
+
+  <section class="bloco jogar" id="jogar">
+    <div class="titulo-bloco">
+      <h2>JOGUE AGORA</h2>
+      <p>O jogo está disponível diretamente abaixo.</p>
+    </div>
+
+    <div class="game-frame" id="conteudoSensivel">
+      <iframe src="Flash/index.html" title="Jogo no navegador"></iframe>
+    </div>
+  </section>
+
+  <!--SECTION PERSONAGENS-->
+
+  <section class="bloco personagens" id="personagens">
+    <div class="titulo-bloco">
+      <h2>PERSONAGENS</h2>
+      <p>Cada personagem possui estilo, habilidades e características próprias.</p>
+    </div>
+
+    <div class="grid-cards">
+      <div class="card">
+        <img src="Imgs/flash_same_size.png" alt="Personagem 1">
+        <h3>THE FLASH</h3>
+        <p>O velocista principal, conhecido por sua incrível velocidade e 
+reflexos rápidos. Representa o herói clássico, capaz de reagir 
+rapidamente aos desafios do percurso.</p>
+      </div>
+      <div class="card">
+        <img src="Imgs/personagem_claro_220x273.png" alt="Personagem 3">
+        <h3>KID FLASH</h3>
+        <p>Um velocista ágil e determinado, com grande habilidade e 
+energia, sempre pronto para provar seu valor nas corridas. </p>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION CENARIOS-->
+
+  <section class="bloco mapas" id="Cenario">
+    <div class="titulo-bloco">
+      <h2>CENÁRIOS</h2>
+      <p>Cenários criados para gerar partidas intensas e criativas.</p>
+    </div>
+
+    <div class="grid-cenarios">
+      <div class="card-cenario">
+        <img src="Imgs/AdobeStock_847238508.jpeg" alt="Orlando City">
+        <h3>Orlando City</h3>
+        <p>Uma Cidade mais fechada cheia de crime, onde os vilões conseguem se esconder
+          com facilidade em becos e ruas estreitas..</p>
+      </div>
+      <div class="card-cenario">
+        <img src="Imgs/AdobeStock_847238700.jpeg" alt="New York">
+        <h3>New York</h3>
+        <p>A Cidade onde os grandes herois habitao, a taxa de crime nessa cidade é baixa,
+          mas onde a perigo, sempre tem um heroi para salva-lo.</p>
+      </div>
+      <div class="card-cenario">
+        <img src="Imgs/AdobeStock_847237865.jpeg" alt="Floresta Hávai">
+        <h3>Floresta Hávai</h3>
+        <p>A Floresta Hávai, onde a maior parte das negociaçoes dos viloes acontecem,
+          pois é uma floresta afastada e pergigosa durante o dia todo.</p>
+      </div>
+    </div>
+    <div class="botao-centralizado">
+      <a href="#jogar" class="botao">JOGAR AGORA</a>
+    </div>
+  </section>
+
+  <!--SECTION CONTATO E AVALIAÇÕES-->
+
+  <section class="bloco contato" id="contato">
+  <div class="titulo-bloco">
+    <h2>CONTATO & AVALIAÇÕES</h2>
+    <p>Deixe seu feedback sobre o jogo ou entre em contato comigo.</p>
+  </div>
+
+  <div class="contato-container">
+
+    <form class="form-contato">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+
+      <select required>
+        <option value="">Avalie o jogo</option>
+        <option>⭐ Péssimo, pior que LOL</option>
+        <option>⭐⭐ Ta ruim em</option>
+        <option>⭐⭐⭐ Poderia ser melhor...</option>
+        <option>⭐⭐⭐⭐ Bom demais poh</option>
+        <option>⭐⭐⭐⭐⭐ Amei o Jogo</option>
+      </select>
+
+      <textarea placeholder="Escreva seu feedback..." rows="5" required></textarea>
+
+      <button type="avaliação">Enviar avaliação</button>
+    </form>
+
+    <div class="info-contato">
+      <h3>Fale comigo</h3>
+      <p>Se quiser sugerir melhorias ou reportar bugs, me envie uma mensagem.</p>
+
+      <p><strong>Email:</strong> pedro.rossato@grupointegrado.br</p>
+      <p><strong>Projeto:</strong> The Flash Game</p>
+
+      <div class="redes">
+        <a href="https://www.instagram.com/rossatoon/">Instagram</a>
+        <a href="https://www.tiktok.com/@rossatoon">TikTok</a>
+        <a href="https://www.facebook.com/marketplace/profile/61584803800395/?ref=share_attachment">Facebook</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--FOOTER-->
+
+  <footer>
+    <p>Projeto desenvolvido por Pedro Rossato.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
