@@ -93,7 +93,7 @@ body {
 
 .Flash {
   min-height: 725px;
-  background: url('Imgs/AdobeStock_847237865.jpeg') center/cover no-repeat;
+  background: url('../Imgs/AdobeStock_847237865.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 120px 60px 60px;
