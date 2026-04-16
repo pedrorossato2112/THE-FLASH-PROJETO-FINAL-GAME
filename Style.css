@@ -92,10 +92,12 @@ body {
 /* 4. SECTION FLASH */
 
 .Flash {
-  background-image: url('./Imgs/AdobeStock_847237865.jpeg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+  min-height: 725px;
+  background-image: url(Imgs/AdobeStock_847238508.jpeg); 
+  display: flex; 
+  align-items: center; 
+  padding: 120px 60px 60px; 
+  position: relative;
 }
 
 .subtitulo {
